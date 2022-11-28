@@ -37,7 +37,9 @@ class Receptor extends Bot {
     .then(() => this.createPem())
     .then((options) => {
       const sessionSecret = dvalue.randomID(24);
+      const staticFolder = this.config.base.static;
       const app = new koa();
+      app.use(staticServer(staticFolder));
       app.use(Blocker());
       app.use(cors());
       return this.listen({ options, callback: app.callback() });
