@@ -9,7 +9,7 @@ const proxy = require('koa-better-http-proxy');
 const session = require('koa-session');
 const Router = require('koa-router');
 const bodyParser = require('koa-body');
-const staticServe = require('koa-static');
+const staticServer = require('koa-static');
 const dvalue = require('dvalue');
 
 const Bot = require(path.resolve(__dirname, 'Bot.js'));

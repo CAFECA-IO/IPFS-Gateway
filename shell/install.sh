@@ -48,7 +48,7 @@ sudo ln -s $PARENT_LOCATION/$NODE_FILENAME/bin/pm2 /usr/local/bin
 ### Deploy
 mkdir $HOME/workspace
 cd $HOME/workspace
-git clone https://github.com/Luphia/ecProxy
-cd ecProxy
+git clone https://github.com/CAFECA-IO/IPFS-Gateway
+cd IPFS-Gateway
 npm i
-pm2 start . --name ecProxy
+pm2 start . --name IPFS-Gateway
