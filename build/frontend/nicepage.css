@@ -2088,9 +2088,7 @@ a {
 }
 .u-form .u-form-horizontal input[type="checkbox"] {
   width: 13px;
-  max-width: 13px;
   margin-bottom: 3px;
-  min-width: 13px;
 }
 .u-form .u-form-vertical .u-form-group.u-form-checkbox,
 .u-form .u-form-vertical .u-form-group.u-form-agree {
@@ -17382,7 +17380,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: x-small;
-  line-height: 20px;
+  line-height: 1.6;
   color: #eeeeee;
 }
 blockquote footer:before,
@@ -17706,7 +17704,7 @@ blockquote .small:before {
   width: 100%;
   text-align: center;
   font-size: medium;
-  line-height: 16px;
+  line-height: 1.2;
   margin-top: -8px;
   color: #CCC;
 }
@@ -17941,7 +17939,7 @@ blockquote .small:before {
   color: #000;
   text-decoration: none;
   font-size: medium;
-  line-height: 18px;
+  line-height: 1.4;
 }
 .pswp__share-tooltip a:hover {
   text-decoration: none;
@@ -18007,7 +18005,7 @@ a.pswp__share--download:hover {
   top: 0;
   height: 44px;
   font-size: medium;
-  line-height: 44px;
+  line-height: 3.2;
   color: #FFF;
   opacity: 0.75;
   padding: 0 10px;
@@ -18030,11 +18028,11 @@ a.pswp__share--download:hover {
 }
 .pswp__caption__center {
   text-align: left;
-  max-width: 420px;
+  max-width: 100%;
   margin: 0 auto;
   font-size: medium;
   padding: 10px;
-  line-height: 20px;
+  line-height: 1.6;
   color: #CCC;
 }
 .pswp__caption--empty {
@@ -20422,7 +20420,7 @@ a.pswp__share--download:hover {
   z-index: 1;
   width: calc(1em + 3px);
   height: calc(1em + 3px);
-  line-height: calc(1em + 2px);
+  line-height: 1.2;
   text-align: center;
   vertical-align: baseline;
   box-sizing: content-box;
